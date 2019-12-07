@@ -1,2 +1,0 @@
-itakeshi.github.io
-===================
