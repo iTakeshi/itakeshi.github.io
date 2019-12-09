@@ -9,8 +9,11 @@
 
         <title>Takeshi D. Itoh, M.D.</title>
 
-        <!-- Bootstrap core CSS -->
+        <!-- 3rd Party CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/style.css">
 
         <!-- Favicons -->
         <meta name="msapplication-square70x70logo" content="/image/site-tile-70x70.png">
@@ -88,203 +91,280 @@
     </head>
 
     <body>
-        <h1>Takeshi D. Itoh, M.D.</h1>
+        <div class="wrapper">
 
-        <h2>LATEST UPDATE</h2>
-        <a href="/pdf/itoh-cntxtcomp2019-pub.pdf">Poster PDF for the "Context and Compositionality in Biological and Artificial Neural Systems" (NeurIPS 2019 workshop) is available!</a>
+            <!-- ================================================================================================== -->
+            <!-- SIDEBAR                                                                                            -->
+            <!-- ================================================================================================== -->
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <img src="/image/top.png" alt="avater">
+                    <h1>Takeshi D. Itoh</h1>
+                    <ul id="title">
+                        <li>Medical Doctor</li>
+                        <li>Ph.D. Student @ NAIST</li>
+                    </ul>
+                    <ul id="contact">
+                        <!-- TODO: embed svg to optimize loading speed (FontAwesome is too slow) -->
+                        <li><a href="mailto:itakeshi.net@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
+                        <li><a href="https://github.com/itakeshi"><i class="fab fa-github-square"></i></a></li>
+                        <li><a href="https://itakeshi.hatenablog.com/"><i class="fas fa-pen-square"></i></a></li>
+                        <li><a href="https://twitter.com/TaKeZo_I"<i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href="https://www.facebook.com/itakeshi"><i class="fab fa-facebook-square"></i></a></li>
+                    </ul>
+                </div>
 
-        <!-- ------------------------------------------------------------------------------------------------------ -->
-        <h2>Publications</h2>
-        <h3>International Conferences</h3>
-        <ol>
-            <li>
-                <div class="pub-authors"><span class="pub-author-me">Takeshi Itoh</span>, Jumpei Ukita, Ayaka Kato, Takaaki Kaneko, Masahiro Suzuki, Yusuke Iwasawa</div>
-                <div class="pub-title">Modeling the development of place cells in hippocampus</div>
-                <div class="pub-press">Biologically Inspired Cognitive Architectures (BICA) 2015 Workshop of Whole Braine Architecture Initiative (WBAI)</div>
-                <div class="pub-date">2015.11.07</div>
-                <div class="pub-other">oral, not reviewed, invited</div>
-            </li>
-            <li>
-                <div class="pub-authors"><span class="pub-author-me">Takeshi D. Itoh</span>, Takatomi Kubo, Kiyoka Ikeda, Yuki Maruno, Yoshiharu Ikutani, Hideaki Hata, Kenichi Matsumoto, Kazushi Ikeda</div>
-                <div class="pub-title">A visual attention map for gaze behavior analysis in source code comprehension</div>
-                <div class="pub-press">Asia-Pacific Signal and Information Processing Association Biomedical Signal Processing and Systems (APSIPA BioSiPS) Workshop 2019</div>
-                <div class="pub-date">2019.08.29</div>
-                <div class="pub-other">poster, not reviewed</div>
-            </li>
-            <li>
-                <div class="pub-authors"><span class="pub-author-me">Takeshi D. Itoh</span>, Takatomi Kubo, Kiyoka Ikeda, Yuki Maruno, Yoshiharu Ikutani, Hideaki Hata, Kenichi Matsumoto, Kazushi Ikeda</div>
-                <div class="pub-title">Towards generation of visual attention map for source code</div>
-                <div class="pub-press">Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2019</div>
-                <div class="pub-date">2019.11.20</div>
-                <div class="pub-contents"><a href="https://arxiv.org/abs/1907.06182">preprint on arXiv</a></div>
-                <div class="pub-other">oral, <span class="pub-reviewed">reviewed</span></div>
-            </li>
-            <li>
-                <div class="pub-authors"><span class="pub-author-me">Takeshi D. Itoh</span>, Takatomi Kubo, Kiyoka Ikeda, Yuki Maruno, Yoshiharu Ikutani, Hideaki Hata, Kenichi Matsumoto, Kazushi Ikeda</div>
-                <div class="pub-title">Towards generation of visual attention map for source code</div>
-                <div class="pub-press">33rd Conference on Neural Information Processing Systems (NeurIPS 2019) Workshop of Context and Compositionality in Biological and Artificial Neural Systems</div>
-                <div class="pub-date">2019.12.14</div>
-                <div class="pub-contents"><a href="https://arxiv.org/abs/1907.06182">preprint on arXiv</a>, <a href="/pdf/itoh-cntxtcomp2019-pub.pdf">Poster PDF</a></div>
-                <div class="pub-other">poster, <span class="pub-reviewed">reviewed</span>, non-archival re-presentation of the manuscript for APSIPA ASC 2019</div>
-            </li>
-        </ol>
-        <h3>Japanese Domestic Conferences</h3>
-        <ol>
-            <li>
-                <div class="pub-authors"><span class="pub-author-me">伊藤健史</span>, 田中真樹 (<span class="pub-author-me">Takeshi Itoh, Masaki Tanaka)</div>
-                <div class="pub-title">眼球運動における時空間予測の学習 (Learning of spatiotemporal prediction in eye movement)</div>
-                <div class="pub-press">The 8th Annual Meeting of the Japanese Society for Motor Control</div>
-                <div class="pub-date">2014.08.08</div>
-                <div class="pub-other">poster, not reviewed</div>
-            </li>
-            <li>
-                <div class="pub-authors"><span class="pub-author-me">Takeshi Itoh</span>, Masaki Tanaka</div>
-                <div class="pub-title">Spatiotemporal recalibration of inferred motion in monkeys</div>
-                <div class="pub-press">The Joint Meeting of the 120th Annual Meeting of the Japanese Association of Anatomists and the 92nd Annual Meeting of the Physiological Society of Japan</div>
-                <div class="pub-date">2015.03.21</div>
-                <div class="pub-other">poster, not reviewed</div>
-            </li>
-            <li>
-                <div class="pub-authors">Kiyoka Ikeda, Takatomi Kubo, Yoshiharu Ikutani, Hideaki Hata, Nishanth Koganti, <span class="pub-author-me">Takeshi Itoh</span>, Kenichi Matsumoto, Yuki Maruno, Kazushi Ikeda</div>
-                <div class="pub-title">Gaze behavior analysis in source code comprehension through comparison with attention models</div>
-                <div class="pub-press">Workshop of the Technical Committee on Neurocomputing (NC)</div>
-                <div class="pub-date">2019.06.17</div>
-                <div class="pub-other">oral, not reviewed</div>
-            </li>
-        </ol>
-        <h3>Thesis</h3>
-        <ol>
-            <li>
-                <div class="pub-authors"><span class="pub-author-me">Takeshi Itoh</span></div>
-                <div class="pub-title">High Frequency Model Predictive Controlwith Structured Neural Network Dynamics</div>
-                <div class="pub-press">Master's Thesis, Nara Institution of Science and Technology</div>
-                <div class="pub-other">Thesis Committee: Kazushi Ikeda (Supervisor), Tsukasa Ogasawara (Co-Supervisor), Mitsuo Kawato (Co-Supervisor), Jun Morimoto (Co-Supervisor), Nishanth Koganti (Co-Supervisor)</div>
-                <div class="pub-date">2019.03.15</div>
-            </li>
-        </ol>
-        <h3>Books</h3>
-        <ol>
-            <li>
-                <div class="pub-authors">山崎健一, <span class="pub-author-me">伊藤健史</span> (Ken-ichi Yamazaki, <span class="pub-author-me">Takeshi Itoh</span>)</div>
-                <div class="pub-title">遺伝子デザイン学入門Ⅰ (Introduction to Gene Design, Part I)</div>
-                <div class="pub-press">北海道大学出版会 (Hokkaido University Press)</div>
-                <div class="pub-date">2012.11.15</div>
-            </li>
-        </ol>
-        <!-- ------------------------------------------------------------------------------------------------------ -->
+                <ul class="list-unstyled components">
+                    <li>
+                        <a href="#latest"><b>LATEST UPDATE</b></a>
+                    </li>
+                    <li>
+                        <div data-toggle="collapse" data-target="#collapse-pub" aria-expanded="false" class="dropdown-toggle">Publication</div>
+                        <ul class="collapse list-unstyled" id="collapse-pub">
+                            <li>
+                                <a href="#pub-intlconf">International conference</a>
+                            </li>
+                            <li>
+                                <a href="#pub-domconf">Japanese domestic conference</a>
+                            </li>
+                            <li>
+                                <a href="#pub-thesis">Thesis</a>
+                            </li>
+                            <li>
+                                <a href="#pub-book">Book</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#talk">Tech talk</a>
+                    </li>
+                    <li>
+                        <a href="#award">Award, scholarship, fund</a>
+                    </li>
+                    <li>
+                        <a href="#edu">Education</a>
+                    </li>
+                    <li>
+                        <a href="#job">Job experience</a>
+                    </li>
+                    <li>
+                        <a href="#lic">License</a>
+                    </li>
+                </ul>
+            </nav> <!-- #sidebar -->
 
-        <!-- ------------------------------------------------------------------------------------------------------ -->
-        <h2>Tech Talks</h2>
-        <ul>
-            <li>
-                <div class="talk-date">2018.03.17</div>
-                <div class="talk-title">scalaメタプログラミング今昔物語 (Metaprogramming in Scala: the past and the present)</div>
-                <div class="talk-conf">ScalaMatsuri 2018</div>
-            </li>
-            <li>
-                <div class="talk-date">2019.07.27</div>
-                <div class="talk-title">研究自動化のための「操作」と「監視」 ("Control" and "monitoring" for laboratory automation)</div>
-                <div class="talk-conf">Laboratory Automation Study Group, 1907</div>
-            </li>
-        </ul>
-        <!-- ------------------------------------------------------------------------------------------------------ -->
+            <!-- ================================================================================================== -->
+            <!-- MAIN                                                                                               -->
+            <!-- ================================================================================================== -->
+            <div id="content">
 
-        <!-- ------------------------------------------------------------------------------------------------------ -->
-        <h2>Awards, Scholarships, Funds</h2>
-        <ul>
-            <li>
-                <div class="award-date">2014.08</div>
-                <div class="award-title">Young researcher award</div>
-                <div class="award-from">The 8th Annual Meeting of the Japanese Society for Motor Control</div>
-            </li>
-            <li>
-                <div class="award-date">2015.03</div>
-                <div class="award-title">Poster award</div>
-                <div class="award-from">The Joint Meeting of the 120th Annual Meeting of the Japanese Association of Anatomists and the 92nd Annual Meeting of the Physiological Society of Japan</div>
-            </li>
-            <li>
-                <div class="award-date">2015.09</div>
-                <div class="award-title">Winner, WBAI award</div>
-                <div class="award-from">1st Whole Brain Architecture Initiative Hackathon</div>
-            </li>
-            <li>
-                <div class="award-date">2017.04 ~ 2019.03</div>
-                <div class="award-title">Scholarship, 50% exemption</div>
-                <div class="award-from">Japan Student Services Organization (JASSO)</div>
-            </li>
-            <li>
-                <div class="award-date">2019.03 ~ present</div>
-                <div class="award-title">Grant for research fellowship for young scientists</div>
-                <div class="award-from">Japan Society for the Promotion of Science (JSPS)</div>
-            </li>
-        </ul>
-        <!-- ------------------------------------------------------------------------------------------------------ -->
+                <h2 id="latest">LATEST UPDATE</h2>
+                <a href="/pdf/itoh-cntxtcomp2019-pub.pdf"><b>DOWNLOAD POSTER PDF</b></a> for the "Context and Compositionality in Biological and Artificial Neural Systems" (NeurIPS 2019 workshop)!
 
-        <!-- ------------------------------------------------------------------------------------------------------ -->
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <div class="edu-term">2011.04 ~ 2017.03</div>
-                <div class="edu-degree">Doctor of Medicine</div>
-                <div class="edu-school">Hokkaido University, Sapporo, Japan</div>
-            </li>
-            <li>
-                <div class="edu-term">2019.04 ~ 2019.03</div>
-                <div class="edu-degree">Master of Engineering</div>
-                <div class="edu-school">Nara Institute of Science and Technology, Ikoma, Japan</div>
-            </li>
-            <li>
-                <div class="edu-term">2019.04 ~ present</div>
-                <div class="edu-degree">Ph.D. Student</div>
-                <div class="edu-school">Nara Institute of Science and Technology, Ikoma, Japan</div>
-            </li>
-        </ul>
-        <!-- ------------------------------------------------------------------------------------------------------ -->
+                <div class="line"></div>
+                <!-- ---------------------------------------------------------------------------------------------- -->
 
-        <!-- ------------------------------------------------------------------------------------------------------ -->
-        <h2>Professional Experience</h2>
-        <ul>
-            <li>
-                <div class="job-term">2016.01 ~ 2019.05</div>
-                <div class="job-title">Part-time software engineer</div>
-                <div class="job-company">Robotic Biology Institute, Inc.</div>
-            </li>
-            <li>
-                <div class="job-term">2017.08 ~ 2018.09</div>
-                <div class="job-title">Summer intern, Part-time engineer</div>
-                <div class="job-company">Preferred Networks, Inc.</div>
-            </li>
-            <li>
-                <div class="job-term">2019.04 ~ present</div>
-                <div class="job-title">Research fellowship for young scientists, DC1</div>
-                <div class="job-company">Japan Society for the Promotion of Science (JSPS)</div>
-            </li>
-            <li>
-                <div class="job-term">2019.04 ~ present</div>
-                <div class="job-title">Research assistant</div>
-                <div class="job-company">Nara Institute of Science and Technology</div>
-            </li>
-            <li>
-                <div class="job-term">2019.06 ~ present</div>
-                <div class="job-title">Part-time software engineer</div>
-                <div class="job-company">Anchorage Works, Inc.</div>
-            </li>
-        </ul>
-        <!-- ------------------------------------------------------------------------------------------------------ -->
+                <h2 id="pub">Publication</h2>
+                <h3 id="pub-intlconf">International Conference</h3>
+                <ol>
+                    <li>
+                        <div class="pub-authors"><span class="pub-author-me">Takeshi Itoh</span>, Jumpei Ukita, Ayaka Kato, Takaaki Kaneko, Masahiro Suzuki, Yusuke Iwasawa</div>
+                        <div class="pub-title">Modeling the development of place cells in hippocampus</div>
+                        <div class="pub-press">Biologically Inspired Cognitive Architectures (BICA) 2015 Workshop of Whole Braine Architecture Initiative (WBAI)</div>
+                        <div class="pub-date">2015.11.07</div>
+                        <div class="pub-other">oral, not reviewed, invited</div>
+                    </li>
+                    <li>
+                        <div class="pub-authors"><span class="pub-author-me">Takeshi D. Itoh</span>, Takatomi Kubo, Kiyoka Ikeda, Yuki Maruno, Yoshiharu Ikutani, Hideaki Hata, Kenichi Matsumoto, Kazushi Ikeda</div>
+                        <div class="pub-title">A visual attention map for gaze behavior analysis in source code comprehension</div>
+                        <div class="pub-press">Asia-Pacific Signal and Information Processing Association Biomedical Signal Processing and Systems (APSIPA BioSiPS) Workshop 2019</div>
+                        <div class="pub-date">2019.08.29</div>
+                        <div class="pub-other">poster, not reviewed</div>
+                    </li>
+                    <li>
+                        <div class="pub-authors"><span class="pub-author-me">Takeshi D. Itoh</span>, Takatomi Kubo, Kiyoka Ikeda, Yuki Maruno, Yoshiharu Ikutani, Hideaki Hata, Kenichi Matsumoto, Kazushi Ikeda</div>
+                        <div class="pub-title">Towards generation of visual attention map for source code</div>
+                        <div class="pub-press">Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC) 2019</div>
+                        <div class="pub-date">2019.11.20</div>
+                        <div class="pub-contents"><a href="https://arxiv.org/abs/1907.06182">preprint on arXiv</a></div>
+                        <div class="pub-other">oral, <span class="pub-reviewed">reviewed</span></div>
+                    </li>
+                    <li>
+                        <div class="pub-authors"><span class="pub-author-me">Takeshi D. Itoh</span>, Takatomi Kubo, Kiyoka Ikeda, Yuki Maruno, Yoshiharu Ikutani, Hideaki Hata, Kenichi Matsumoto, Kazushi Ikeda</div>
+                        <div class="pub-title">Towards generation of visual attention map for source code</div>
+                        <div class="pub-press">33rd Conference on Neural Information Processing Systems (NeurIPS 2019) Workshop of Context and Compositionality in Biological and Artificial Neural Systems</div>
+                        <div class="pub-date">2019.12.14</div>
+                        <div class="pub-contents"><a href="https://arxiv.org/abs/1907.06182">preprint on arXiv</a>, <a href="/pdf/itoh-cntxtcomp2019-pub.pdf">Poster PDF</a></div>
+                        <div class="pub-other">poster, <span class="pub-reviewed">reviewed</span>, non-archival re-presentation of the manuscript for APSIPA ASC 2019</div>
+                    </li>
+                </ol>
+                <h3 id="pub-domconf">Japanese Domestic Conference</h3>
+                <ol>
+                    <li>
+                        <div class="pub-authors"><span class="pub-author-me">伊藤健史</span>, 田中真樹 (<span class="pub-author-me">Takeshi Itoh</span>, Masaki Tanaka)</div>
+                        <div class="pub-title">眼球運動における時空間予測の学習 (Learning of spatiotemporal prediction in eye movement)</div>
+                        <div class="pub-press">The 8th Annual Meeting of the Japanese Society for Motor Control</div>
+                        <div class="pub-date">2014.08.08</div>
+                        <div class="pub-other">poster, not reviewed</div>
+                    </li>
+                    <li>
+                        <div class="pub-authors"><span class="pub-author-me">Takeshi Itoh</span>, Masaki Tanaka</div>
+                        <div class="pub-title">Spatiotemporal recalibration of inferred motion in monkeys</div>
+                        <div class="pub-press">The Joint Meeting of the 120th Annual Meeting of the Japanese Association of Anatomists and the 92nd Annual Meeting of the Physiological Society of Japan</div>
+                        <div class="pub-date">2015.03.21</div>
+                        <div class="pub-other">poster, not reviewed</div>
+                    </li>
+                    <li>
+                        <div class="pub-authors">Kiyoka Ikeda, Takatomi Kubo, Yoshiharu Ikutani, Hideaki Hata, Nishanth Koganti, <span class="pub-author-me">Takeshi Itoh</span>, Kenichi Matsumoto, Yuki Maruno, Kazushi Ikeda</div>
+                        <div class="pub-title">Gaze behavior analysis in source code comprehension through comparison with attention models</div>
+                        <div class="pub-press">Workshop of the Technical Committee on Neurocomputing (NC)</div>
+                        <div class="pub-date">2019.06.17</div>
+                        <div class="pub-other">oral, not reviewed</div>
+                    </li>
+                </ol>
+                <h3 id="pub-thesis">Thesis</h3>
+                <ol>
+                    <li>
+                        <div class="pub-authors"><span class="pub-author-me">Takeshi Itoh</span></div>
+                        <div class="pub-title">High Frequency Model Predictive Controlwith Structured Neural Network Dynamics</div>
+                        <div class="pub-press">Master's Thesis, Nara Institution of Science and Technology</div>
+                        <div class="pub-other">Thesis Committee: Kazushi Ikeda (Supervisor), Tsukasa Ogasawara (Co-Supervisor), Mitsuo Kawato (Co-Supervisor), Jun Morimoto (Co-Supervisor), Nishanth Koganti (Co-Supervisor)</div>
+                        <div class="pub-date">2019.03.15</div>
+                    </li>
+                </ol>
+                <h3 id="pub-book">Book</h3>
+                <ol>
+                    <li>
+                        <div class="pub-authors">山崎健一, <span class="pub-author-me">伊藤健史</span> (Ken-ichi Yamazaki, <span class="pub-author-me">Takeshi Itoh</span>)</div>
+                        <div class="pub-title">遺伝子デザイン学入門Ⅰ (Introduction to Gene Design, Part I)</div>
+                        <div class="pub-press">北海道大学出版会 (Hokkaido University Press)</div>
+                        <div class="pub-date">2012.11.15</div>
+                    </li>
+                </ol>
 
-        <!-- ------------------------------------------------------------------------------------------------------ -->
-        <h2>License</h2>
-        <ul>
-            <li>
-                <div class="lic-date">2017.03</div>
-                <div class="lic-title">Japanese Medical Doctor License</div>
-            </li>
-        </ul>
-        <!-- ------------------------------------------------------------------------------------------------------ -->
+                <div class="line"></div>
+                <!-- ---------------------------------------------------------------------------------------------- -->
 
-        <!-- Bootstrap JS -->
+                <h2 id="talk">Tech Talk</h2>
+                <ul>
+                    <li>
+                        <div class="talk-date">2018.03.17</div>
+                        <div class="talk-title">scalaメタプログラミング今昔物語 (Metaprogramming in Scala: the past and the present)</div>
+                        <div class="talk-conf">ScalaMatsuri 2018</div>
+                        <div class="talk-contents"><a href="https://speakerdeck.com/itakeshi/metaprogramming-in-scala-the-past-and-the-present">Slide (EN)</a></div>
+                    </li>
+                    <li>
+                        <div class="talk-date">2019.07.27</div>
+                        <div class="talk-title">研究自動化のための「操作」と「監視」 ("Control" and "monitoring" for laboratory automation)</div>
+                        <div class="talk-conf">Laboratory Automation Study Group, 1907</div>
+                    </li>
+                </ul>
+
+                <div class="line"></div>
+                <!-- ---------------------------------------------------------------------------------------------- -->
+
+                <h2 id="award">Award, Scholarship, Fund</h2>
+                <ul>
+                    <li>
+                        <div class="award-date">2014.08</div>
+                        <div class="award-title">Young researcher award</div>
+                        <div class="award-from">The 8th Annual Meeting of the Japanese Society for Motor Control</div>
+                    </li>
+                    <li>
+                        <div class="award-date">2015.03</div>
+                        <div class="award-title">Poster award</div>
+                        <div class="award-from">The Joint Meeting of the 120th Annual Meeting of the Japanese Association of Anatomists and the 92nd Annual Meeting of the Physiological Society of Japan</div>
+                    </li>
+                    <li>
+                        <div class="award-date">2015.09</div>
+                        <div class="award-title">Winner, WBAI award</div>
+                        <div class="award-from">1st Whole Brain Architecture Initiative Hackathon</div>
+                    </li>
+                    <li>
+                        <div class="award-date">2017.04 ~ 2019.03</div>
+                        <div class="award-title">Scholarship, 50% exemption</div>
+                        <div class="award-from">Japan Student Services Organization (JASSO)</div>
+                    </li>
+                    <li>
+                        <div class="award-date">2019.03 ~ present</div>
+                        <div class="award-title">Grant for research fellowship for young scientists</div>
+                        <div class="award-from">Japan Society for the Promotion of Science (JSPS)</div>
+                    </li>
+                </ul>
+
+                <div class="line"></div>
+                <!-- ---------------------------------------------------------------------------------------------- -->
+
+                <h2 id="edu">Education</h2>
+                <ul>
+                    <li>
+                        <div class="edu-term">2011.04 ~ 2017.03</div>
+                        <div class="edu-degree">Doctor of Medicine</div>
+                        <div class="edu-school">Hokkaido University, Sapporo, Japan</div>
+                    </li>
+                    <li>
+                        <div class="edu-term">2019.04 ~ 2019.03</div>
+                        <div class="edu-degree">Master of Engineering</div>
+                        <div class="edu-school">Nara Institute of Science and Technology, Ikoma, Japan</div>
+                    </li>
+                    <li>
+                        <div class="edu-term">2019.04 ~ present</div>
+                        <div class="edu-degree">Ph.D. Student</div>
+                        <div class="edu-school">Nara Institute of Science and Technology, Ikoma, Japan</div>
+                    </li>
+                </ul>
+
+                <div class="line"></div>
+                <!-- ---------------------------------------------------------------------------------------------- -->
+
+                <h2 id="job">Job Experience</h2>
+                <ul>
+                    <li>
+                        <div class="job-term">2016.01 ~ 2019.05</div>
+                        <div class="job-title">Part-time software engineer</div>
+                        <div class="job-company">Robotic Biology Institute, Inc.</div>
+                    </li>
+                    <li>
+                        <div class="job-term">2017.08 ~ 2018.09</div>
+                        <div class="job-title">Summer intern, Part-time engineer</div>
+                        <div class="job-company">Preferred Networks, Inc.</div>
+                    </li>
+                    <li>
+                        <div class="job-term">2019.04 ~ present</div>
+                        <div class="job-title">Research fellowship for young scientists, DC1</div>
+                        <div class="job-company">Japan Society for the Promotion of Science (JSPS)</div>
+                    </li>
+                    <li>
+                        <div class="job-term">2019.04 ~ present</div>
+                        <div class="job-title">Research assistant</div>
+                        <div class="job-company">Nara Institute of Science and Technology</div>
+                    </li>
+                    <li>
+                        <div class="job-term">2019.06 ~ present</div>
+                        <div class="job-title">Part-time software engineer</div>
+                        <div class="job-company">Anchorage Works, Inc.</div>
+                    </li>
+                </ul>
+
+                <div class="line"></div>
+                <!-- ---------------------------------------------------------------------------------------------- -->
+
+                <h2 id="lic">License</h2>
+                <ul>
+                    <li>
+                        <div class="lic-date">2017.03</div>
+                        <div class="lic-title">Japanese Medical Doctor License</div>
+                    </li>
+                </ul>
+
+            </div> <!-- #content -->
+
+        </div> <!-- .wrapper -->
+
+        <!-- 3rd Party JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2c10eb3692.js" crossorigin="anonymous"></script>
     </body>
 </html>
