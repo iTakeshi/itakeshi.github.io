@@ -22,7 +22,7 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 350px;
     height: 100vh;
     z-index: 999;
     background: #7386D5;
@@ -52,6 +52,7 @@ p {
 }
 #sidebar .sidebar-header ul#contact li {
     display: inline;
+    padding: 0 10px;
 }
 #sidebar .sidebar-header ul#contact li a {
     display: inline;
@@ -67,27 +68,27 @@ p {
     padding: 10px;
 }
 
-#sidebar ul li a {
-    padding: 10px;
+#sidebar ul.components li a {
+    padding: 10px 20px;
     font-size: 1.1em;
     display: block;
 }
-#sidebar ul li a:hover {
+#sidebar ul.components li a:hover {
     color: #7386D5;
     background: #fff;
 }
-#sidebar ul li div {
-    padding: 10px;
+#sidebar ul.components li div {
+    padding: 10px 20px;
     font-size: 1.1em;
     display: block;
 }
-#sidebar ul li div:hover {
+#sidebar ul.components li div:hover {
     cursor: pointer;
     color: #7386D5;
     background: #fff;
 }
 
-#sidebar ul li.active > a, a[aria-expanded="true"] {
+#sidebar ul.components li.active > a, a[aria-expanded="true"] {
     color: #fff;
     background: #6d7fcc;
 }
@@ -118,7 +119,7 @@ div[data-toggle="collapse"] {
 }
 
 #content {
-    width: calc(100% - 300px);
+    width: calc(100% - 350px);
     padding: 40px;
     min-height: 100vh;
     position: absolute;
