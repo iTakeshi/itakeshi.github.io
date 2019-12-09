@@ -22,18 +22,11 @@ p {
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 300px;
-    max-width: 300px;
+    width: 300px;
     height: 100vh;
     z-index: 999;
     background: #7386D5;
     color: #fff;
-}
-
-@media (max-width: 768px) {
-    #sidebar {
-        margin-left: 0px;
-    }
 }
 
 #sidebar .sidebar-header {
@@ -55,6 +48,7 @@ p {
 #sidebar .sidebar-header ul#contact {
     list-style: none;
     padding-left: 0;
+    margin-bottom: 0;
 }
 #sidebar .sidebar-header ul#contact li {
     display: inline;
@@ -66,7 +60,6 @@ p {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p {
@@ -159,4 +152,21 @@ div[data-toggle="collapse"] {
 
 .pub-reviewed {
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    #sidebar ul.components {
+        display: none;
+    }
+
+    #content {
+        width: 100%;
+        margin-top: 450px; /* XXX WHY DO I NEED THIS??? why can't I do "position: static" ? */
+    }
 }
