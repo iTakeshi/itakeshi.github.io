@@ -138,14 +138,6 @@ div[data-toggle="collapse"] {
     margin-top: 15px;
 }
 
-#content ol {
-    padding-inline-start: 35px;
-}
-#content ol li {
-    margin-top: 15px;
-    padding-left: 5px;
-}
-
 .pub-author-me {
     text-decoration: underline;
     font-weight: bold;
